@@ -47,8 +47,8 @@ Si te gustó este proyecto y quieres trabajar conmigo o necesitas ayuda en el de
 
 -   ✉️ d.morant@hotmail.com
 -   📱 +57 305 216 2655
--   💼 [LinkedIn](https://www.linkedin.com/in/diegomorant/)
--   📸 [Instagram (Magia)](https://www.instagram.com/morant_ilusionista/)
+-   💼 [LinkedIn](https://www.linkedin.com/in/diego-morant-acosta/)
+-   📸 [Instagram (Magia)](https://www.instagram.com/morantilusionista/)
 
 ---
 
