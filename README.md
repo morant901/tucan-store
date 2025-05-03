@@ -1,54 +1,72 @@
-# React + TypeScript + Vite
+# 🛍️ Tucán Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a **Tucán Store**!  
+Una tienda virtual desarrollada con **Vite + React + TailwindCSS**, que consume la API de [FakeStoreAPI](https://fakestoreapi.com/) y permite a los usuarios explorar productos, filtrarlos por categoría y agregar sus favoritos.
 
-Currently, two official plugins are available:
+🚀 Sitio en producción: [https://morant901.github.io/tucan-store](https://morant901.github.io/tucan-store)
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Capturas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![Vista de productos](./src/assets/productos.png)  
+![Vista de favoritos](./src/assets/favoritos.png)
 
-```js
-export default tseslint.config({
-    extends: [
-        // Remove ...tseslint.configs.recommended and replace with this
-        ...tseslint.configs.recommendedTypeChecked,
-        // Alternatively, use this for stricter rules
-        ...tseslint.configs.strictTypeChecked,
-        // Optionally, add this for stylistic rules
-        ...tseslint.configs.stylisticTypeChecked,
-    ],
-    languageOptions: {
-        // other options...
-        parserOptions: {
-            project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-            tsconfigRootDir: import.meta.dirname,
-        },
-    },
-});
+---
+
+## 🧠 Funcionalidades
+
+-   🔍 **Filtrado por categoría y nombre**
+-   ❤️ **Agregar y eliminar productos favoritos** (persistencia con `localStorage`)
+-   ⚡ **Diseño responsivo con TailwindCSS**
+-   📦 **Consumo de API externa con `fetch`**
+-   🧭 **Navegación con React Router**
+-   💡 **Código limpio y componentes reutilizables**
+
+---
+
+## 🛠️ Tecnologías
+
+-   [Vite](https://vitejs.dev/)
+-   [React](https://reactjs.org/)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [TailwindCSS](https://tailwindcss.com/)
+-   [React Router](https://reactrouter.com/)
+
+---
+
+## 🧑‍💻 Sobre mí
+
+Hola, soy **Diego Andrés Morant Acosta**.  
+Soy desarrollador Frontend con experiencia en **React**, **VTEX IO** y creación de experiencias mágicas ✨ tanto en código como en persona (¡sí, también soy mago!).
+
+Creo productos digitales que conectan con las personas, combinando tecnología, diseño y un toque humano.  
+Si te gustó este proyecto y quieres trabajar conmigo o necesitas ayuda en el desarrollo de tu app...
+
+📬 **Contáctame:**
+
+-   ✉️ d.morant@hotmail.com
+-   📱 +57 305 216 2655
+-   💼 [LinkedIn](https://www.linkedin.com/in/diegomorant/)
+-   📸 [Instagram (Magia)](https://www.instagram.com/morant_ilusionista/)
+
+---
+
+## 🧾 Instalación
+
+```bash
+git clone https://github.com/morant901/tucan-store.git
+cd tucan-store
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+## 🎯 Objetivo del proyecto
 
-export default tseslint.config({
-    plugins: {
-        // Add the react-x and react-dom plugins
-        "react-x": reactX,
-        "react-dom": reactDom,
-    },
-    rules: {
-        // other rules...
-        // Enable its recommended typescript rules
-        ...reactX.configs["recommended-typescript"].rules,
-        ...reactDom.configs.recommended.rules,
-    },
-});
-```
+Este proyecto fue desarrollado como una prueba técnica y ejercicio personal para demostrar el consumo de APIs, gestión de estado local y buenas prácticas con React. También es un ejemplo funcional de cómo estructurar un proyecto profesional con **componentes reutilizables**, **ruteo limpio** y **estilos modernos**.
+
+---
+
+¿Te gustó el proyecto? ¡Dale una ⭐ o contáctame para colaborar juntos!
