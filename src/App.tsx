@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { getProductList, Product } from "./services/ProductServices";
 import ProductCard from "./components/ProductCard";
-import Filters from "./components/filters/filters";
+import Filters from "./components/filters/Filters";
 
 function App() {
     const [products, setProducts] = useState<Product[]>([]);
