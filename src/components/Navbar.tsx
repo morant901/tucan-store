@@ -55,7 +55,7 @@ const Navbar = () => {
                         Inicio
                     </Link>
                     <Link
-                        to="/favoritos"
+                        to="/favorites"
                         className="block hover:underline"
                         onClick={toggleMenu}
                     >
